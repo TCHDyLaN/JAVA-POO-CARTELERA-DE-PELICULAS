@@ -31,7 +31,7 @@ public class titulo {
     }
 
 
-    public int getDuracionMinutos(int duracion){
+    public int getDuracionMinutos(){
         return duracion;
     }
 
@@ -44,8 +44,9 @@ public class titulo {
     }
 
     public void mostrarFichaTecnica(){
-        System.out.println("El nombre de la pelicula es: " + nombre_pelicula + " y se estrenará el " + fecha_estreno + " y tiene una duración de " + duracion + " minutos.");
+        System.out.println("El nombre de la pelicula es: " + nombre_pelicula + " y se estrenará el " + fecha_estreno + " y tiene una duración de " + getDuracionMinutos() + " minutos.");
         System.out.println("¿Está disponible? " + (disponible ? "Sí" : "No"));
+        
     }
 
     public void evalua (double nota){

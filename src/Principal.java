@@ -25,10 +25,8 @@ public class Principal {
         casaDragon.setTemporadas(1);
         casaDragon.setMinutosPorEpisodio(45);
         casaDragon.setEpisodiosporTemporada(10);
-
-        System.out.println("La serie de la  " + casaDragon.getnombre_pelicula() + " tiene una duración de " + casaDragon.getDuracionMinutos() + " minutos.");
-
         casaDragon.mostrarFichaTecnica();
+        System.out.println("Duracion total en minutos de la serie: " + casaDragon.getDuracionMinutos());
 
 
 
